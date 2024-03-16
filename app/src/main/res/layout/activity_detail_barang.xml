@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:background="#ECE6ED"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="^SONYA AULIA FEBRIANA QUIZ 1^"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:height="60dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="#AEB5DA"
+        android:layout_marginTop="1dp"
+        android:textColor="#0A196E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang "
+        android:textColor="#46508C"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/tvMembershipType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46508C"
+        android:layout_gravity="center"
+        android:text="Tipe Membership : "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="0dp"/>
+
+    <TextView
+        android:id="@+id/tvTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textColor="#46508C"
+        android:text="Transaksi Hari Ini"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNamaPembeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#46508C"
+        android:text="Nama Pembeli"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNamaBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Barang"
+        android:textColor="#46508C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvKodeBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kode Barang"
+        android:textColor="#46508C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvJumlahBarang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46508C"
+        android:text="Jumlah Barang"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Harga: Rp. "
+        android:textColor="#46508C"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDiskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#46508C"
+        android:text="Diskon: Rp. "
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTotalBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bayar: Rp. "
+        android:textSize="15sp"
+        android:textColor="#46508C"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvThanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:textColor="#46508C"
+        android:layout_gravity="center"
+        android:text="Terimakasih Telah Berbelanja Disini!"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
